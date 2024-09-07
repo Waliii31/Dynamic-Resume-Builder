@@ -1,0 +1,55 @@
+/* Style for the body to enable scrolling */
+body {
+  font-family: "Poppins", sans-serif;
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  overflow-y: auto;
+}
+
+/* Container size adjustment */
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #000;
+  color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+}
+
+/* Profile picture styling */
+.profile-pic {
+  width: 150px;
+  border-radius: 50%;
+}
+
+/* Section spacing */
+section {
+  margin-bottom: 20px;
+}
+
+/* Hide and show sections */
+.hidden {
+  display: none;
+}
+
+/* Button style */
+button {
+  padding: 10px 20px;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+/* Button hover effect */
+button:hover {
+  background-color: #0056b3;
+}
