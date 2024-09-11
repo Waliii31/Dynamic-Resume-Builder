@@ -37,5 +37,5 @@ form.addEventListener("submit", function (event) {
         resumeSkills.appendChild(li);
     });
     // Show the resume section
-    resumeSection.classList.remove("d-none");
+    resumeSection.classList.remove("hidden");
 });

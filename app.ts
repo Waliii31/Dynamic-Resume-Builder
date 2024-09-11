@@ -44,5 +44,5 @@ form.addEventListener("submit", (event) => {
   });
 
   // Show the resume section
-  resumeSection.classList.remove("d-none");
+  resumeSection.classList.remove("hidden");
 });
